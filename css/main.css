@@ -17,7 +17,8 @@ body {
 
 .QRCodeText {
   background-color: white;
-  max-width: 21%;
+  width: 90%;
+  max-width: 320px;
   border-radius: 10px;
 }
 
