@@ -9,38 +9,38 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.QRCodeCenter {
+.wrapper {
   display: flex;
   justify-content: center;
   min-height: 100vh;
   align-items: center;
 }
 
-.QRCodeText {
+.card {
   background-color: white;
   width: 90%;
   max-width: 320px;
   border-radius: 10px;
 }
 
-.innerIndentation {
+.card__inner {
   padding: 10px;
 }
 
-.fontQR {
+.card__image {
   max-width: 100%;
   border-radius: 10px;
 }
 
-.fontText {
+.card__title {
   font-size: 20px;
   margin: 15px auto;
 }
 
-.centerText {
+.card__body {
   text-align: center;
 }
 
-p {
+.card__text {
   font-size: 15px;
 }
